@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+	<component name="ChangeListManager">
+		<list default="true" id="df615de5-0c5f-44dc-8809-e2dbab1b5ac7" name="Changes" comment="" />
+		<option name="SHOW_DIALOG" value="false" />
+		<option name="HIGHLIGHT_CONFLICTS" value="true" />
+		<option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+		<option name="LAST_RESOLUTION" value="IGNORE" />
+	</component>
+	<component name="FileTemplateManagerImpl">
+		<option name="RECENT_TEMPLATES">
+			<list>
+				<option value="JavaScript File" />
+				<option value="HTML File" />
+				<option value="SCSS File" />
+				<option value="CSS File" />
+			</list>
+		</option>
+	</component>
+	<component name="GitSEFilterConfiguration">
+		<file-type-list>
+			<filtered-out-file-type name="LOCAL_BRANCH" />
+			<filtered-out-file-type name="REMOTE_BRANCH" />
+			<filtered-out-file-type name="TAG" />
+			<filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+		</file-type-list>
+	</component>
+	<component name="MarkdownSettingsMigration">
+		<option name="stateVersion" value="1" />
+	</component>
+	<component name="ProjectId" id="26m0HVrYMN4lxsF1u5hfk8cnPE4" />
+	<component name="ProjectViewState">
+		<option name="hideEmptyMiddlePackages" value="true" />
+		<option name="showLibraryContents" value="true" />
+	</component>
+	<component name="PropertiesComponent">
+		<property name="DefaultHtmlFileTemplate" value="HTML File" />
+		<property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+		<property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+		<property name="WebServerToolWindowFactoryState" value="false" />
+		<property name="last_opened_file_path" value="$USER_HOME$/Downloads/html-login-page-with-javascript-validation/html-login-page-with-javascript-validation" />
+		<property name="list.type.of.created.stylesheet" value="CSS" />
+		<property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+		<property name="vue.rearranger.settings.migration" value="true" />
+	</component>
+	<component name="RecentsManager">
+		<key name="MoveFile.RECENT_KEYS">
+			<recent name="C:\Users\Bekzat\WebstormProjects\softFactory" />
+			<recent name="C:\Users\Bekzat\WebstormProjects\softFactory\html" />
+		</key>
+	</component>
+	<component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+	<component name="TaskManager">
+		<task active="true" id="Default" summary="Default task">
+			<changelist id="df615de5-0c5f-44dc-8809-e2dbab1b5ac7" name="Changes" comment="" />
+			<created>1648013367025</created>
+			<option name="number" value="Default" />
+			<option name="presentableId" value="Default" />
+			<updated>1648013367025</updated>
+			<workItem from="1648013368237" duration="1878000" />
+			<workItem from="1648097065455" duration="533000" />
+			<workItem from="1649502675041" duration="2077000" />
+			<workItem from="1649563628560" duration="2508000" />
+			<workItem from="1649566180653" duration="7330000" />
+			<workItem from="1649574803969" duration="11000" />
+			<workItem from="1649574867302" duration="32000" />
+			<workItem from="1649589163246" duration="4278000" />
+			<workItem from="1649605659316" duration="350000" />
+			<workItem from="1649692076985" duration="313000" />
+			<workItem from="1649776938871" duration="1265000" />
+			<workItem from="1649778470054" duration="417000" />
+			<workItem from="1650126921616" duration="4821000" />
+			<workItem from="1650132757072" duration="882000" />
+			<workItem from="1650175090221" duration="2547000" />
+		</task>
+		<servers />
+	</component>
+	<component name="TypeScriptGeneratedFilesManager">
+		<option name="version" value="3" />
+	</component>
+</project>

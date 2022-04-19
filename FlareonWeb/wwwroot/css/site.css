@@ -24,6 +24,10 @@ a {
   border-color: #1861ac;
 }
 
+.nav-link:hover {
+    color: #000;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -49,6 +53,21 @@ html {
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
+}
+
+button {
+    color: #f2f5f7;
+    margin: 0 0.7vw;
+    text-decoration: none;
+    transition: all ease-in-out 350ms;
+    padding: 10px;
+}
+
+button:hover {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 /* Sticky footer styles
