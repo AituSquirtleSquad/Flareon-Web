@@ -16,16 +16,7 @@ namespace FlareonWeb.Areas.Identity
         public void Configure(IWebHostBuilder builder)
         {
             builder.ConfigureServices((context, services) => {
-                services.AddDbContext<FlareonWebContext>(options =>
-                    options.UseSqlServer(
-                        context.Configuration.GetConnectionString("FlareonWebContextConnection")));
-
-                services.AddDefaultIdentity<ApplicationUser>(options => {
-                    options.SignIn.RequireConfirmedAccount = false;
-                    options.Password.RequireUppercase = false;
-                    options.Password.RequireLowercase = false;
-                    })
-                    .AddEntityFrameworkStores<FlareonWebContext>();
+                
             });
         }
     }
