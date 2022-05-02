@@ -102,33 +102,17 @@
             @{
                 if (User.Identity.IsAuthenticated)
                 {
+                    <li><a href="@Url.Action("TheaterIndex", "Theaters")">Theaters</a></li>
+                    <li><a href="@Url.Action("CinemaIndex", "Cinemas")">Cinemas</a></li>
                     <partial name="_LoginPartial.cshtml" />
                 }
                 <!--else
-                {
-                    <li><a href="/identity/account/login">Login</a></li>
-                    <li><a href="/identity/account/register">Register</a></li>
-                }-->
+        {
+            <li><a href="/identity/account/login">Login</a></li>
+            <li><a href="/identity/account/register">Register</a></li>
+        }-->
 
 
-            }
-            @{
-                if (!User.Identity.IsAuthenticated)
-                {
-                    <!--<li><button class="login-button" data-toggle="modal" data-target="#myModal" href="#">Sign In</button></li>-->
-                    <li style="display:flex; align-items: center">
-                        <form style="padding: 0; margin: 0; width: 10%; height: 10%;" id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                            <div>
-                                <p>
-                                    @foreach (var provider in Model.ExternalLogins)
-                                    {
-                                        <button type="submit" class="login-button" style="width: 200px; margin-top: 17px" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account"> <img src="https://img.icons8.com/color/16/000000/google-logo.png"> Login With @provider.DisplayName</button>
-                                    }
-                                </p>
-                            </div>
-                        </form>
-                    </li>
-                }
             }
         </ul>
     </nav>

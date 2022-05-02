@@ -9,7 +9,6 @@ C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\bin\Debug\net5.0\ref\FlareonWeb.d
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\bin\Debug\net5.0\FlareonWeb.pdb
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\bin\Debug\net5.0\FlareonWeb.Views.dll
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\bin\Debug\net5.0\FlareonWeb.Views.pdb
-C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\FlareonWeb.csproj.AssemblyReference.cache
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\FlareonWeb.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\FlareonWeb.AssemblyInfoInputs.cache
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\FlareonWeb.AssemblyInfo.cs
@@ -162,3 +161,16 @@ C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Areas\Iden
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\bin\Debug\net5.0\Npgsql.dll
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_LoginLayout.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Theaters\TheaterIndex.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Theaters\Create.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Theaters\Edit.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Cinemas\CinemaIndex.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Cinemas\Create.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Cinemas\Edit.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Movies\MovieIndex.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
+C:\Users\HP\source\repos\FlareonWeb\FlareonWeb\obj\Debug\net5.0\FlareonWeb.csproj.AssemblyReference.cache

@@ -1,6 +1,10 @@
+using FlareonWeb.Areas.Identity.Data;
+using FlareonWeb.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,10 +35,26 @@ namespace FlareonWeb
                     googleOptions.ClientId = "714240893848-icbn1hbtg7iegh8mankjsa01nevg53sl.apps.googleusercontent.com";
                     googleOptions.ClientSecret = "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";
                 });
+            services.AddDbContext<FlareonWebContext>(options =>
+                    options.UseNpgsql(
+                        Configuration.GetConnectionString("FlareonWebContextConnection")));
+
+            services.AddDefaultIdentity<ApplicationUser>(options =>
+            {
+                options.SignIn.RequireConfirmedAccount = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+            })
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<FlareonWebContext>();
+
+            services.AddAuthorization(options =>
+                options.AddPolicy("Admin", policy => policy.RequireRole("Admin")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, 
+            UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -53,6 +73,8 @@ namespace FlareonWeb
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            //SeedData.Seed(userManager, roleManager);
 
             app.UseEndpoints(endpoints =>
             {
